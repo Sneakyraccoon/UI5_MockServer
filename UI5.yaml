@@ -1,0 +1,7 @@
+specVersion: '2.3'
+metadata:
+  name: oz-ui5-list-test
+type: application
+framework:
+  name: SAPUI5
+  version: "1.129.2"
