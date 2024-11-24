@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" href="favicon.ico" />
-    <script
-      id="sap-ui-bootstrap"
-      src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
-      data-sap-ui-async="true"
-      data-sap-ui-on-init="module:sap/ui/demo/walkthrough/index"
-      data-sap-ui-compat-version="edge"
-      data-sap-ui-resource-roots='{ "sap.ui.demo.walkthrough": "./" }'
-    ></script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SAP UI5 LIST TEST</title>
-  </head>
-  <body class="sapUiBody" id="content"></body>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<style>
+		html, body, body > div, #container, #container-uiarea {
+			height: 100%;
+		}
+	</style>
+	<script
+			id="sap-ui-bootstrap"
+			src="resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_fiori_3"
+			data-sap-ui-resourceroots='{
+            "componentID": "."
+        }'
+			data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-async="true"
+			data-sap-ui-preload="async"
+			data-sap-ui-libs="sap.m">
+	</script>
+</head>
+<body class="sapUiBody sapUiSizeCompact" id="content">
+<div data-sap-ui-component data-name="componentID" data-id="container" data-settings='{"id" : "component ID"}' data-handle-validation="true"></div>
+</body>
 </html>
-
