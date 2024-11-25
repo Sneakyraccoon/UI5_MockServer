@@ -4,7 +4,7 @@
     xmlns:mvc="sap.ui.core.mvc"
 >
     <Button
-        text="say Hi"
+        text="say Hi KiKi"
         press=".onShowHello"
     />
 </mvc:XMLView>
