@@ -1,12 +1,8 @@
 {
-  "name": "oz-ui5-list-test",
+  "name": "ui5.walkthrough",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "The UI5 walkthrough application",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+      "start": "ui5 serve -o index.html"
+  }
 }

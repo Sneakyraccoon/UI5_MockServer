@@ -1,6 +1,6 @@
 specVersion: '2.3'
 metadata:
-  name: oz-ui5-list-test
+  name: sap-ui5-walkthrough
 type: application
 framework:
   name: SAPUI5

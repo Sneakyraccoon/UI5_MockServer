@@ -1,10 +1,16 @@
 <mvc:XMLView
-    controllerName="sap.ui.demo/walkthrough.controller.App"
+    controllerName="ui5.walkthrough.controller.App"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
 >
     <Button
-        text="say Hi KiKi"
+        text="KiKi Says Hi!!!"
         press=".onShowHello"
     />
+
+        <Input value="{/recipient/name}"
+             description="Hello {/recipient/name}" 
+             valueLiveUpdate="true"
+             width="60%"
+             />
 </mvc:XMLView>
