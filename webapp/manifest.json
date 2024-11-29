@@ -1,6 +1,12 @@
 {
   "_version": "1.65.0",
   "sap.app": {
-    "id": "ui5.walkthrough"
+    "id": "ui5.walkthrough",
+    "i18n": "i18n/i18n.properties"
+
+    
+   
   }
 }
+
+
