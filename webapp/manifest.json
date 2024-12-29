@@ -49,6 +49,10 @@
       "viewName": "ui5.walkthrough.view.App",
       "type": "XML",
       "id": "app"
+    },
+    "invoice": {
+      "type": "sap.ui.model.json.JSONModel",
+      "uri": "Invoices.json"
     }
   }
 }
