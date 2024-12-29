@@ -1,29 +1,27 @@
 sap.ui.define([
     "sap/ui/core/UIComponent",
     "sap/ui/model/json/JSONModel",
-    "sap/ui/model/resource/ResourceModel"
-
-], function(UIComponent, JSONModel, ResourceModel){
+], (UIComponent, JSONModel) => {
     "use strict";
-    return UIComponent.extend("ui5.walkthrough.Component", {
-        metadata : {
-            manifest: "json"
 
+    return UIComponent.extend("ui5.walkthrough.Component", {
+        metadata: {
+            interfaces: ["sap.ui.core.IAsyncContentCreation"],
+            manifest: "json"
         },
-        init : function () {
+
+        init() {
             // call the init function of the parent
             UIComponent.prototype.init.apply(this, arguments);
-            // set data models
-            let oData = {
+
+            // set data model on view
+            const oData = {
                 recipient: {
                     name: "UI5"
                 }
             };
-            let oModel = new JSONModel(oData);
+            const oModel = new JSONModel(oData);
             this.setModel(oModel);
-
-             
-
         }
-    })
-})
+    });
+});
