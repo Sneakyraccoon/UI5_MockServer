@@ -1,10 +1,10 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/m/MessageToast"
-], (Conroller, MessageToast) => {
+], (Controller, MessageToast) => {
     "use strict";
 
-    return Conroller.extend("ui5.walkthrough.controller.HelloPanel", {
+    return Controller.extend("ui5.walkthrough.controller.HelloPanel", {
         onShowHello() {
             // read msg from i18n model
             const oBundle = this.getView().getModel("i18n").getResourceBundle();
